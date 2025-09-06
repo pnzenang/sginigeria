@@ -23,18 +23,17 @@ const Footer2 = () => {
           </div>
         </div>
         <div className=' md:flex  container mx-auto align-element'>
-          {/* <div className='w-full px-4 md:w-1/2 lg:w-1/3'>
-            <div className='mb-8 w-full'>
-              <div className='flex gap-4 items-center justify-center'>
-                <FaLocationDot className='w-8 h-8 text-primary' />
-                <div>
-                  <h5 className=' text-md font-semibold '>
-                    23612 Public House Rd, Clarksburg MD 20871.
-                  </h5>
-                </div>
+          <div className='mb-8 w-full'>
+            <div className='flex gap-4 items-center justify-center'>
+              <FaLocationDot className='w-8 h-8 text-primary' />
+              <div>
+                <h5 className=' text-md font-semibold '>
+                  9711 Washingtonian Blvd Suite 550 <br />
+                  Gaithersburg MD 20878
+                </h5>
               </div>
             </div>
-          </div> */}
+          </div>
 
           <div className='w-full px-4 md:w-1/2 lg:w-1/3'>
             <div className='mb-8 w-full'>
