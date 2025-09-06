@@ -81,7 +81,7 @@ const Footer2 = () => {
             <div className='w-full  md:w-3 lg:w-5/12 xl:w-1/3 '>
               <div className='py-3 text-center'>
                 <p className=' '>
-                  © {new Date().getFullYear()} SAGINIGERIA | A SAGI
+                  © {new Date().getFullYear()} SAGI-NIGERIA | A SAGI
                   Organization.
                 </p>
               </div>
