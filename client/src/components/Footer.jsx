@@ -1,5 +1,5 @@
 import {
-  // FaLocationDot,
+  FaLocationDot,
   FaEnvelope,
   FaGlobe,
   FaPhone,
@@ -23,14 +23,16 @@ const Footer2 = () => {
           </div>
         </div>
         <div className=' md:flex  container mx-auto align-element'>
-          <div className='mb-8 w-full'>
-            <div className='flex gap-4 items-center justify-center'>
-              <FaLocationDot className='w-8 h-8 text-primary' />
-              <div>
-                <h5 className=' text-md font-semibold '>
-                  9711 Washingtonian Blvd Suite 550 <br />
-                  Gaithersburg MD 20878
-                </h5>
+          <div className='w-full px-4 md:w-1/2 lg:w-1/3'>
+            <div className='mb-8 w-full'>
+              <div className='flex gap-4 items-center justify-center'>
+                <FaLocationDot className='w-8 h-8 text-primary' />
+                <div>
+                  <h5 className=' text-md font-semibold '>
+                    9711 Washingtonian Blvd Suite 550 <br />
+                    Gaithersburg MD 20878
+                  </h5>
+                </div>
               </div>
             </div>
           </div>
@@ -80,8 +82,7 @@ const Footer2 = () => {
             <div className='w-full  md:w-3 lg:w-5/12 xl:w-1/3 '>
               <div className='py-3 text-center'>
                 <p className=' '>
-                  © {new Date().getFullYear()} SAGI-NIGERIA | A SAGI
-                  Organization.
+                  © {new Date().getFullYear()} SAGICAM | A SAGI Organization.
                 </p>
               </div>
             </div>
