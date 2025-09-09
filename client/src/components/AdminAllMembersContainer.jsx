@@ -88,9 +88,7 @@ const AdminAllMembersContainer = () => {
                             <th className={TdStyle.ThStyle}>Family Names </th>
                             <th className={TdStyle.ThStyle}> First Names </th>
                             {/* <th className={TdStyle.ThStyle}>Date of Birth</th> */}
-                            <th className={TdStyle.ThStyle}>
-                              Registration Date{' '}
-                            </th>
+                            <th className={TdStyle.ThStyle}>Longevity(days)</th>
                             <th className={TdStyle.ThStyle}>Recommendation </th>
                             <th className={TdStyle.ThStyle}> Status </th>
                             <th className={TdStyle.ThStyle}> </th>
@@ -137,7 +135,7 @@ const AdminAllMembersContainer = () => {
                                 </td>
                                 <td className={TdStyle.TdStyle}>{firstName}</td>
                                 {/* <td className={TdStyle.TdStyle}>{date2}</td> */}
-                                <td className={TdStyle.TdStyle}>{date}</td>
+                                <td className={TdStyle.TdStyle}>{m}</td>
 
                                 <td className={TdStyle.TdStyle}>
                                   {delegateRecommendation}
